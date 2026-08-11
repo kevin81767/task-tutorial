@@ -13,6 +13,7 @@ function render() {
     li.textContent = task;
     list.appendChild(li);
   }
+    document.getElementById("count").textContent = `${tasks.length} task(s)`;
 }
 
 form.addEventListener("submit", (event) => {
