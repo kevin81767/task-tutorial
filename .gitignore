@@ -1,0 +1,13 @@
+# macOS clutter
+.DS_Store
+
+# Personal notes — mine, not the project's
+notes.txt
+
+# Folders created by tools, never written by hand
+node_modules/
+dist/
+.vercel/
+
+# Files with secrets. This line is the one that matters.
+.env.local
